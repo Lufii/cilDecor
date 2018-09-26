@@ -1,7 +1,14 @@
-/*CineSuntStyles*/
-
-
 /*CeAmFacutHover*/
+.panel-grid{
+position: relative;
+z-index: 1;
+}
+
+.panel-grid:hover{
+position: relative;
+z-index: 2;
+}
+
 .fullGallery img, .frontGallery img {
 transition: all .2s ease-in-out;
 }
